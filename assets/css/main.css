@@ -1,0 +1,150 @@
+body {
+	font-family: 'Gloria Hallelujah', cursive;
+	margin: 0 auto;
+}
+/*Barra menú horizontal*/
+.Cabecera {
+	background-color: #2E2E2E;
+}
+.link1, .boton1, .boton2, .boton3, .boton4 {
+	color: white;
+	text-decoration: none;
+	padding: 1em;
+}
+.link1 {
+	padding-left: 5em;
+}
+.link1:hover {
+	color: #F5A9BC;
+	transition: 1s;
+}
+.text1, .listahorizontal {
+	display: inline-flex;
+}
+.listahorizontal {
+	list-style: none;
+	padding: 1.2em;
+    margin: 0;
+    float: right;
+}
+.boton1, .boton2, .boton3, .boton4 {
+    text-align: center;
+    padding: 1em;
+}
+.boton1:hover {
+	background-color: #F5A9BC;
+	transition: 1s;
+}
+.boton2:hover {
+	background-color: #F5A9BC;
+	transition: 1s;
+}
+.boton3:hover {
+	background-color: #F5A9BC;
+	transition: 1s;
+}
+.boton4:hover {
+	background-color: #F5A9BC;
+	transition: 1s;
+}
+.barra {
+	padding: 0;
+}
+.fa-bars {
+	display: none;
+}
+/*Imagen proncipal con texto*/
+.linea {
+	padding-bottom: 35em;
+}
+.fondo {
+	background-image: url(../images/sakura2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.title {
+	padding: 0;
+}
+.titulo {
+	text-align: center;
+	font-size: 2em;
+	background-color: #F5A9BC;
+}
+/*Primera sección con resumen de contenido y contactos*/
+.cuadro1 {
+	background-color: #F5A9BC;
+}
+.text2 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.parrafo1, .parrafo2 {
+	text-align: justify;
+	margin-bottom: 1em;
+}
+.boton {
+	background-color: black;
+	color: #F5A9BC;
+	padding: 1em;
+	border-radius: 1em;
+	display: inline-block;
+	cursor: pointer;
+}
+.boton::after {
+	content: "\f101";
+	color: #F5A9BC;
+	font: normal normal normal 20px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	margin-left: 1em;
+}
+/*Contacto*/
+.contact {
+	padding-left: 2em;
+}
+.text3, .text5 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.link2, .link3, .link4 {
+	text-decoration: none;
+	color: #6A0888;
+}
+.link3, .link4 {
+	display: block;
+}
+/*Cuadro de fotos con texto*/
+.descripcion, .descripcion1, .descripcion2 {
+	background-color: white;
+	border: 1px solid black;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.descripcion1, .descripcion2 {
+	margin-left: 7.8em;
+}
+.imagen1, .imagen2, .imagen3 {
+	background-position: center;
+	max-width: 14.3em;
+}
+.parrafo3, .parrafo4, .parrafo5 {
+	font-size: 0.7em;
+}
+.acceso1, .acceso2, .acceso3 {
+	padding: 0.5em;
+	background-color: #F5A9BC;
+	cursor: pointer;
+}
+/*Footer*/
+.cierre {
+	background-color: #2E2E2E;
+	padding: 1em;
+}
+.cierre1 {
+	font-size: 1em;
+	color: white;
+	text-align: center;
+}
