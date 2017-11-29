@@ -1,4 +1,4 @@
-@media (min-width: 500px) and (max-width: 700px) {
+@media (min-width: 500px) and (max-width: 680px) {
   [class*="col-"] {
  		width: 100%
  	}
@@ -6,23 +6,50 @@
     display: none;
   }
   .link1 {
-    padding-left: 1em;
+    padding-left: 2em;
   }
   .link1, .fa-bars {
     display: inline-block;
   }
   .icono {
-    width: 55%;
+    width: 45%;
     display: inline-block;
     text-align: right;
   }
   .fa-bars {
     color: white;
+    cursor: pointer;
   }
   .descripcion {
-    margin-left: 24%;
+    margin-left: 23%;
   }
   .descripcion, .descripcion1, .descripcion2 {
     max-width: 50%;
+  }
+}
+@media (min-width: 200px) and (max-width: 499px) {
+  [class*="col-"] {
+ 		width: 100%
+ 	}
+  .boton1, .boton2, .boton3, .boton4 {
+    display: none;
+  }
+  .link1 {
+    padding-left: 2em;
+  }
+  .link1, .fa-bars {
+    display: inline-block;
+  }
+  .icono {
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+  }
+  .fa-bars {
+    color: white;
+    cursor: pointer;
+  }
+  .descripcion1, .descripcion2 {
+    margin-left: 0;
   }
 }

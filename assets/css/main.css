@@ -95,10 +95,10 @@ body {
 	content: "\f101";
 	color: #F5A9BC;
 	font: normal normal normal 20px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 	margin-left: 1em;
 }
 /*Contacto*/
