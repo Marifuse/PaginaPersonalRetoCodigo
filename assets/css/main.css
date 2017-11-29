@@ -128,7 +128,7 @@ body {
 }
 .imagen1, .imagen2, .imagen3 {
 	background-position: center;
-	max-width: 14.3em;
+	max-width: 100%;
 }
 .parrafo3, .parrafo4, .parrafo5 {
 	font-size: 0.7em;

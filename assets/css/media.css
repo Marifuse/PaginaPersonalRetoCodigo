@@ -2,6 +2,10 @@
   [class*="col-"] {
  		width: 100%
  	}
+  .fondo {
+    background-image: url(../images/sakuramedia.jpg);
+    background-position: center;
+  }
   .boton1, .boton2, .boton3, .boton4 {
     display: none;
   }
@@ -31,6 +35,10 @@
   [class*="col-"] {
  		width: 100%
  	}
+  .fondo {
+    background-image: url(../images/sakuracelu.jpg);
+    background-position: center;
+  }
   .boton1, .boton2, .boton3, .boton4 {
     display: none;
   }
